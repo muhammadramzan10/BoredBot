@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 5px black;
+    background-color: #3b76ce;
+
+}
+
+button:hover{
+    box-shadow: 0 0 10px black;    
+}
+
+.happy{
+    background: linear-gradient(
+        #92FFC0,
+        #002661);
+}
